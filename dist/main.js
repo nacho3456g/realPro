@@ -85,7 +85,7 @@ server.on("request", async (request, response) => {
     if (request.method === "POST" && request.url === "/") {
         const fileHandler = await fs.open("../message/message.txt", "a");
         const writeStream = fileHandler.createWriteStream();
-        writeStream.write(request.headers.host + "\r\n");
+        writeStream.write("\r\n");
         writeStream.write(request.headers.customheader + " = ");
         request.pipe(writeStream);
         request.on("end", () => {
