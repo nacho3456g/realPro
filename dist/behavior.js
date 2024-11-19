@@ -27,14 +27,14 @@ if (mainImage.complete) {
     spinnerLoader.style.display = "block";
     setTimeout(() => {
         showMessage();
-    }, 3500);
+    }, 4500);
 }
 else {
     mainImage.addEventListener("load", () => {
         spinnerLoader.style.display = "block";
         setTimeout(() => {
             showMessage();
-        }, 3500);
+        }, 4500);
     });
 }
 ;
