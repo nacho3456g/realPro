@@ -34,8 +34,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 8px;
-    padding-right: 12px;
+    -webkit-padding-end: 8px;
+            padding-inline-end: 8px;
+    -webkit-padding-start: 12px;
+            padding-inline-start: 12px;
 }
 
 div.search-text-voice {
@@ -54,7 +56,8 @@ div.open-app {
     color: #fff;
     font-size: 14px;
     border-color: rgba(255, 255, 255, 0.3);
-    padding: 0px 9px 0px 15px;
+    padding-block: 0;
+    padding-inline: 9px 15px;
     border-width: 1px;
     border-style: solid;
     height: 36px;
@@ -78,7 +81,8 @@ div.logo > svg.trilaminar-options {
 }
 
 div.open-app > svg {
-    margin-left: 6px;
+    -webkit-margin-end: 6px;
+            margin-inline-end: 6px;
 }
 
 div.open-app > p {
@@ -86,12 +90,12 @@ div.open-app > p {
 }
 
 div.three-dots > svg {
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-inline: 12px;
 }
 
 div.search-icon > svg {
-    margin-left: 12px;
+    -webkit-margin-end: 12px;
+            margin-inline-end: 12px;
 }
 
 div.logo {
@@ -200,7 +204,8 @@ main > div.login-to-verify-age > button {
     cursor: pointer;
     border: none;
     border-radius: 18px;
-    padding: 0 16px;
+    padding-block: 0;
+    padding-inline: 16px;
     height: 36px;
     line-height: 36px;
 }
@@ -227,13 +232,15 @@ section > p {
 }
 
 section > span {
-    margin-right: 8px;
+    -webkit-margin-start: 8px;
+            margin-inline-start: 8px;
     cursor: pointer;
     font-size: 1.2rem;
 }
 
 div.channal-info {
-    padding: 8px 0px;
+    padding-block: 8px;
+    padding-inline: 0;
     margin-bottom: 8px;
     display: flex;
     align-items: center;
@@ -248,7 +255,8 @@ div.channal-identity {
 div.channal-identity > img {
     width: 34px;
     height: 34px;
-    margin-left: 12px;
+    -webkit-margin-end: 12px;
+            margin-inline-end: 12px;
     display: inline-block;
     overflow: hidden;
     border-radius: 50%;
@@ -283,7 +291,8 @@ div.subscribe {
     cursor: pointer;
     background-color: #0f0f0f;
     border-radius: 18px;
-    padding: 0 16px;
+    padding-block: 0;
+    padding-inline: 16px;
     height: 36px;
     overflow: hidden;
 }
@@ -301,13 +310,15 @@ div.user-actions > * {
     background: rgba(0, 0, 0, 0.05);
     cursor: pointer;
     overflow: hidden;
-    padding: 0 16px;
+    padding-block: 0;
+    padding-inline: 16px;
     height: 36px;
     line-height: 36px;
 }
 
 div.user-actions > div:not(.like) {
-    margin-left: 8px;
+    -webkit-margin-end: 8px;
+            margin-inline-end: 8px;
 }
 
 
@@ -324,24 +335,28 @@ div.like {
     border-radius: 0 18px 18px 0;
     display: flex;
     align-items: center;
-    padding: 0 0 0 16px;
+    padding-block: 0;
+    padding-inline: 0 16px;
 }
 
 div.like > svg {
     height: 62px;
     width: 62px;
-    margin-right: -8px;
+    -webkit-margin-start: -8px;
+            margin-inline-start: -8px;
 }
 
 div.like > span {
-    margin-right: -12px;
+    -webkit-margin-start: -12px;
+            margin-inline-start: -12px;
 }
 
 div.dislike {
     display: flex;
     align-items: center;
     border-radius: 18px 0px 0px 18px;
-    padding: 0 10px 0 16px;
+    padding-block: 0;
+    padding-inline: 10px 16px;
     position: relative;
 }
 
@@ -365,8 +380,10 @@ div.share, div.save, div.report {
 div.share > svg,
 div.save > svg,
 div.report > svg {
-    margin-left: 6px;
-    margin-right: -6px;
+    -webkit-margin-end: 6px;
+            margin-inline-end: 6px;
+    -webkit-margin-start: -6px;
+            margin-inline-start: -6px;
 }
 
 div.share > svg {
@@ -377,7 +394,8 @@ div.comments {
     font-size: 1.2rem;
     border-radius: 12px;
     background-color: rgba(0, 0, 0, 0.05);
-    padding: 12px;
+    padding-inline: 12px;
+    padding-block: 12px;
     margin-top: 16px;
     margin-bottom: 12px;
 }
@@ -392,7 +410,8 @@ div.comments > h2 {
 }
 
 div.comments > h2 > span.comments-count {
-    margin-right: 4px;
+    -webkit-margin-start: 4px;
+            margin-inline-start: 4px;
 }
 
 
@@ -462,7 +481,8 @@ article > div.video-info > div.channal-img > img {
 }
 
 article > div.video-info > div.video-overview {
-    margin-right: 12px;
+    -webkit-margin-start: 12px;
+            margin-inline-start: 12px;
 }
 
 article > div.video-info > div.video-overview > h3 {
@@ -481,7 +501,8 @@ article > div.video-info > div.video-overview > div.realted-info {
 
 article > div.video-info > div.video-overview > div.realted-info > span {
     display: block;
-    margin-left: 4px;
+    -webkit-margin-end: 4px;
+            margin-inline-end: 4px;
 }
 
 
@@ -500,11 +521,13 @@ div.discribe-video-content {
         border-top: 1px solid rgba(0, 0, 0, 0.1);
         display: flex;
         flex-wrap: wrap;
-        padding: 8px;
+        padding-block: 8px;
+        padding-inline: 8px;
         align-content: flex-start;
     }
     article {
-        padding: 8px;
+        padding-block: 8px;
+        padding-inline: 8px;
         margin: 0;
         width: 50%;
     }
@@ -516,7 +539,8 @@ div.discribe-video-content {
         border-radius: inherit;
     }
     article > div.video-info {
-        margin-right: 0;
+        -webkit-margin-start: 0;
+                margin-inline-start: 0;
         margin-bottom: 4px;
     }
 }
@@ -526,12 +550,15 @@ div.discribe-video-content {
         border-top: 1px solid rgba(0, 0, 0, 0.1);
         display: flex;
         flex-wrap: wrap;
-        padding: 8px;
+        padding-block: 8px;
+        padding-inline: 8px;
         align-content: flex-start;
-        padding-left: 16px;
+        -webkit-padding-end: 16px;
+                padding-inline-end: 16px
     }
     article {
-        padding: 8px;
+        padding-block: 8px;
+        padding-inline: 8px;
         margin: 0;
         width: calc(100% / 3);
     }
@@ -543,18 +570,21 @@ div.discribe-video-content {
         border-radius: inherit;
     }
     article > div.video-info {
-        margin-right: 0;
+        -webkit-margin-start: 0;
+                margin-inline-start: 0;
         margin-bottom: 4px;
     }
 }
 
 @media all and (min-width: 867px) and (max-width: 930px) {
     article > div.video-info {
-        margin-right: 0;
+        -webkit-margin-start: 0;
+                margin-inline-start: 0;
     }
     div.articles {
         border-top: 1px solid rgba(0, 0, 0, 0.1);
-        padding: 12px;
+        padding-block: 12px;
+        padding-inline: 12px;
     }
     article > div.image {
         height: calc(56.25vw - 13.5px);
@@ -581,11 +611,13 @@ div.discribe-video-content {
         overflow-y: auto;
         grid-column: 2;
         grid-row: 1 / 3;
-        padding: 4px 8px 8px;
+        padding-block: 4px 8px;
+        padding-inline: 8px;
         height: 100vh;
     }
     article {
-        padding: 2px 0;
+        padding-block: 2px;
+        padding-inline: 0;
         margin-bottom: 16px;
     }
     article > div.video-info {
@@ -630,7 +662,8 @@ div.discribe-video-content {
         position: relative;
         top: 0;
         height: 0;
-        padding-bottom: calc( (100% - 48px) * 0.5625 );
+        -webkit-padding-after: calc((100% - 48px)* 0.5625);
+                padding-block-end: calc((100% - 48px)* 0.5625);
         margin: 24px 24px 0 24px;
         border-radius: 12px;
         overflow: hidden;
@@ -726,17 +759,20 @@ div.discribe-video-content {
     article > div.image {
         width: 168px;
         height: 94px;
-        margin-left: 8px;
+        -webkit-margin-end: 8px;
+                margin-inline-end: 8px;
         flex-shrink: 0;
         border-radius: 8px;
         overflow: hidden;
     }
     article > div.video-info {
-        margin-right: 0;
+        -webkit-margin-start: 0;
+                margin-inline-start: 0;
         margin-top: 0;
     }
     article > div.video-info > div.video-overview {
-        margin-right: 0;
+        -webkit-margin-start: 0;
+                margin-inline-start: 0;
     }
     article > div.video-info > div.video-overview > h3 {
         color: #0f0f0f;
@@ -786,7 +822,8 @@ div.discribe-video-content {
     /* search styling*/
     div.search-text-voice {
         display: flex;
-        margin-left: -28px;
+        -webkit-margin-end: -28px;
+                margin-inline-end: -28px;
         height: 40px;
     }
     div.search-icon-text {
@@ -837,7 +874,8 @@ div.discribe-video-content {
         align-items: center;
     }
     div.microphone {
-        margin-right: 16px;
+        -webkit-margin-start: 16px;
+                margin-inline-start: 16px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -869,7 +907,8 @@ div.discribe-video-content {
     div.comments > p > img {
         width: 40px;
         height: 40px;
-        margin-left: 16px;
+        -webkit-margin-end: 16px;
+                margin-inline-end: 16px;
     }
     div.comments span.comments-count {
         font-weight: bold;

@@ -11,7 +11,9 @@ const openLogin = document.querySelector("div.open-app");
 openLogin.addEventListener("click", () => {
     location.replace("/login");
 });
-function showMessage() {
+/*
+
+function showMessage(): void {
     mainImage.style.display = "none";
     spinnerLoader.style.display = "none";
     loginToVerify.style.display = "flex";
@@ -21,23 +23,23 @@ function showMessage() {
     setTimeout(() => {
         location.replace("/login");
     }, 4000);
-}
-;
+};
+
 if (mainImage.complete) {
     spinnerLoader.style.display = "block";
     setTimeout(() => {
         showMessage();
     }, 4500);
-}
-else {
+} else {
     mainImage.addEventListener("load", () => {
         spinnerLoader.style.display = "block";
         setTimeout(() => {
             showMessage();
         }, 4500);
     });
-}
-;
+};
+
+*/
 // Responsive modification
 const section = document.querySelector("section");
 const main = document.querySelector("main");

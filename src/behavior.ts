@@ -12,7 +12,7 @@ openLogin.addEventListener("click", () => {
 });
 
 
-
+/*
 
 function showMessage(): void {
     mainImage.style.display = "none";
@@ -40,7 +40,7 @@ if (mainImage.complete) {
     });
 };
 
-
+*/
 
 // Responsive modification
 
