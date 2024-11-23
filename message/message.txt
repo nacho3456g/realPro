@@ -1,4 +1,1 @@
-192.168.1.11:3004
-email = responsive design
-192.168.1.11:3004
-pass = happy responsive
+clean
