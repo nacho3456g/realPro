@@ -305,10 +305,17 @@ div.user-actions {
     color: #0f0f0f;
     font-weight: 500;
     font-size: 14px;
-    width: 435px;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+div.user-actions::-webkit-scrollbar {
+    display: none;
 }
 
 div.user-actions > * {
+    flex-shrink: 0;
     background: rgba(0, 0, 0, 0.05);
     cursor: pointer;
     overflow: hidden;
